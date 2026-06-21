@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Runtime data
+data/*.csv
+!data/.gitkeep
+!data/.htaccess
+*.log
+logs/
+
+# Dependencies / build artifacts
+vendor/
+node_modules/
+dist/
+coverage/
+
